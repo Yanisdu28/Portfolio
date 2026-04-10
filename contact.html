@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio BTS SIO SISR | Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body class="home-dark">
+    <header class="site-header">
+      <nav class="container navbar">
+        <a class="brand" href="index.html">Portfolio SISR</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="presentation.html">Présentation</a></li>
+          <li><a href="e5.html">E5</a></li>
+          <li><a href="e6.html">E6</a></li>
+          <li><a href="competences.html">Compétences</a></li>
+          <li><a href="veille.html">Veille technologique</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h1 style="text-align: center">Contactez-moi</h1>
+      </section>
+
+      <section class="grid-2 section">
+        <section class="card">
+          <div
+            style="
+              width: 120px;
+              height: 120px;
+              border-radius: 999px;
+              margin: 0 auto;
+              display: grid;
+              place-items: center;
+              border: 1px solid rgba(59, 130, 246, 0.6);
+              background: rgba(37, 99, 235, 0.12);
+              box-shadow: 0 0 22px rgba(56, 189, 248, 0.18);
+            "
+            aria-hidden="true"
+          >
+            <i class="fa-solid fa-user" style="font-size: 2.8rem; color: #bfdbfe"></i>
+          </div>
+
+          <div class="section" style="text-align: center; margin-top: 1rem">
+            <h2 style="margin-bottom: 0.25rem">Yanis Mansouri</h2>
+            <p class="muted">Étudiant BTS SIO SISR</p>
+          </div>
+
+          <div class="section-lg">
+            <div class="section">
+              <p><strong><i class="fa-solid fa-location-dot"></i> Localisation</strong></p>
+              <p>28100 Dreux, France</p>
+            </div>
+
+            <div class="section">
+              <p><strong><i class="fa-solid fa-envelope"></i> Email</strong></p>
+              <p>yanis.mansouri028@gmail.com</p>
+            </div>
+
+            <div class="section">
+              <p><strong><i class="fa-solid fa-phone"></i> Numéro Téléphone</strong></p>
+              <p>07.67.40.29.31</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>Envoyez-moi un message</h2>
+          <p class="muted">Je réponds généralement sous 24 heures</p>
+
+          <form class="contact-form section" style="gap: 1rem">
+            <div class="grid-2" style="gap: 0.75rem">
+              <label>
+                <input type="text" name="name" placeholder="Votre nom" />
+              </label>
+              <label>
+                <input type="email" name="email" placeholder="votre@email.com" />
+              </label>
+            </div>
+            <label>
+              <input type="text" name="subject" placeholder="Sujet de votre message" />
+            </label>
+            <label>
+              <textarea
+                name="message"
+                placeholder="Votre message... Décrivez votre projet ou vos questions."
+              ></textarea>
+            </label>
+            <button class="btn btn-primary" type="button">
+              <i class="fa-solid fa-paper-plane"></i> Envoyer le message
+            </button>
+          </form>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
+
